@@ -1,0 +1,67 @@
+.test {
+rgba(red, green, blue, alpha)
+}
+
+h1, figcaption {
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color:          rgba(0,0,0,.8);     /* szín (red, green, blue, alpha)*/
+  font-family:    serif;              /* betűtípus*/
+  font-size:      36px;               /* betűméret*/
+  line-height:    1.58;               /* sormagasság*/
+  letter-spacing: -.003em;            /* karakterek közötti közök*/
+  text-align:     center;             /* szöveg igazítása*/
+}
+
+img {
+  height:         auto;               /* magasság*/
+  width:          100%;               /* szélesség*/
+}
+
+figcaption {
+  font-size: 11px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  padding: 10px;
+}
+
+p {
+  color: rgba(0,0,0,.8);
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 21px;
+  letter-spacing: -.003em;
+  line-height: 1.58;
+}
+
+
+figure {
+  margin:         0;                  /* margó */
+}
+
+article {
+  margin:         0 auto;             /* középre rendezés */
+}
+
+a {
+  color: rgba(0,0,0,.8);
+}
+
+a:hover {
+           color: rgba(153, 153, 153, 1); /* az állapot, amikor az egér éppen a linkekre mutat*/
+}
